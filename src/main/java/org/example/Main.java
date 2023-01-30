@@ -13,6 +13,9 @@ public class Main {
         Student ana = new Student("Ana", 2);
         Student daniel = new Student("Daniel", 3);
         Student valentin = new Student("Valentin", 4);
+        Student csTest = new ComputerScienceStudent("Test", 6, "Computer Science");
+
+        System.out.println(csTest);
 
         /*List<Student> studentList = new ArrayList(){{
             add(hamideh);
